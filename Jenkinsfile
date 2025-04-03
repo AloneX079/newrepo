@@ -10,7 +10,7 @@ pipeline {
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
                     reportDir: 'reports',
-                    reportFiles: 'index.htm',
+                    reportFiles: 'index.html',
                     reportName: 'Build Report'
                 ])
             }
